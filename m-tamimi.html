@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Mohammed Altamimi</title>
+    <link rel="shortcut icon" href="img/sc-icon.jpg">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<!--header-->
+<header class="bg-style">
+    <div class="container">
+        <!--nav 1-->
+        <nav class="navbar navbar-expand-md bg-style navbar-light">
+            <!--logo-->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.svg" alt="logo pic">
+            </a>
+            <!--search bar-->
+            <!--https://stackoverflow.com/questions/45696685/search-input-with-an-icon-bootstrap-4-->
+            <div class="input-group ml-auto col-4 search1">
+                <input class="form-control py-2 border-right-0 border" type="search" value="search"
+                    id="example-search-input">
+                <span class="input-group-append">
+                    <button class="btn btn-outline-dark border-left-0 border" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+            <!--toggler button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <!--nav 2-->
+        <nav class="navbar navbar-expand-md bg-style navbar-light">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Gallery Photos</a>
+                    </li>
+                </ul>
+            </div>
+            <!--search bar for md-->
+            <div class="input-group search2">
+                <input class="form-control py-2 border-right-0 border" type="search" value="search"
+                    id="example-search-input">
+                <span class="input-group-append">
+                    <button class="btn btn-outline-dark border-left-0 border" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </nav>
+    </div>
+    <!--side nav-->
+    <div class="icon-bar">
+        <a href="#1" class="side-nav">Background</a>
+        <a href="#2" class="side-nav">Hobbies</a>
+        <a href="#3" class="side-nav">Study</a>
+        <a href="#4" class="side-nav">Values</a>
+    </div>
+</header>
+<!--content-->
+
+<body>
+    <div class="container">
+        <!--first row of content-->
+        <div class="row mt-5">
+            <!--image of me-->
+            <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1 m-auto">
+                <img src="img/face.jpg" alt="my face" class="my-face">
+            </div>
+            <!--quote-->
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-5">
+                <!-- CUSTOM BLOCKQUOTE -->
+                <!--https://bootstrapious.com/p/bootstrap-quote-->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i>
+                    </div>
+                    <p class="mb-0 mt-2 font-italic">"God Help Me with my project."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Mohammed Altamimi</footer>
+                </blockquote>
+            </div>
+        </div>
+        <!--second row of content-->
+        <h2 id="1" class="h-color mt-5">1- Background</h2> 
+        <hr>
+        <div class="row">
+            <section class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nullam risus turpis, malesuada dignissim neque at, accumsan 
+                    facilisis efficitur. Integer molestie gravida auctor. Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+            <section class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nullam risus turpis, malesuada dignissim neque at, accumsan 
+                    vehicula libero. Curabitur ultrices viverra est nec consequat.
+                    Suspendisse volutpat, erat eget tincidunt semper, nunc odio porta 
+                    tortor, vitae cursus elit neque id arcu. Aliquam faucibus ante a nunc</p>
+            </section>
+            <section class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nullam risus turpis, malesuada dignissim neque at, accumsan 
+                    tortor, vitae cursus elit neque id arcu. Aliquam faucibus ante a nunc
+                    facilisis efficitur. Integer molestie gravida auctor. Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+        </div>
+        <h2 id="2" class="h-color mt-3">2- Hobbies</h2> 
+        <hr>
+        <div class="row">
+            <section class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, nunc odio porta 
+                    tortor, vitae cursus elit neque id arcu. Aliquam faucibus ante a nunc
+                    facilisis efficitur. Integer molestie gravida auctor. Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+            <section class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nullam risus turpis, malesuada dignissim neque at, accumsan 
+                    vehicula libero. Curabitur ultrices viverra est nec consequat.
+                    Suspendisse volutpat, erat eget tincidunt semper, nunc odio porta 
+                    tortor, vitae cursus elit neque id arcu. Aliquam faucibus ante a nunc
+                    facilisis efficitur. Integer molestie gravida auctor. Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+        </div>
+        <h2 id="3" class="h-color mt-3">3- Study</h2> 
+        <hr>
+        <div class="row">
+            <section class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    facilisis efficitur. Integer molestie gravida auctor. Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+            <section class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nullam risus turpis, malesuada dignissim neque at, accumsan 
+                    vehicula libero. Curabitur ultrices viverra est nec consequat.
+                    Suspendisse volutpat, erat eget tincidunt semper, nunc odio porta</p>
+            </section>
+            <section class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Suspendisse volutpat, erat
+                    facilisis efficitur. Integer molestie gravida auctor. Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+            <section class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur ultrices viverra est nec consequat.
+                    Suspendisse volutpat, erat eget tincidunt semper, nunc odio porta 
+                    facilisis efficitur. Integer molestie gravida auctor. Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+        </div>
+        <h2 id="4" class="h-color mt-3">4- Values</h2> 
+        <hr>
+        <div class="row">
+            <section class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur nec consequat.
+                    Suspendisse volutpat, erat eget tincidunt semper, nunc odio porta 
+                    tortor, vitae cursus elit neque id arcu. Aliquam faucibus ante a nunc
+                    facilisis efficitur. Integer molestie gravida auctor. Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+            <section class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, nunc odio porta 
+                    tortor, vitae cursus elit neque id arcu. Aliquam faucibus ante a nunc
+                    facilisis efficitur. Integer molestie gravida auctor. Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+            <section class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+                <b>bla bla</b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nullam risus turpis, malesuada dignissim neque at, accumsan 
+                    vehicula libero. Curabitur ultrices viverra est nec consequat.
+                    Suspendisse volutpat Ut vitae malesuada enim, 
+                    ac feugiat elit. Praesent congue viverra lectus. Cras non justo sit amet tellus</p>
+            </section>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<!--footer-->
+<footer class="bg-style">
+    <div class="container">
+        <div class="row">
+            <section class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <p><b>Contact Us</b><br>
+                    Dean’s Office<br>
+                    College of Computer <br>
+                    Science & Engineering
+                <p></p>
+
+                <p>Tel: +966 xx xxx xxxx<br>
+                    Email: email@kfupm.edu.sa</p>
+            </section>
+            <section class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <br>
+                <p>Department of Computer <br> Science</p>
+                <br>
+                <p>Tel: +966 xx xxx xxxx<br>
+                    Email: email@kfupm.edu.sa</p>
+            </section>
+            <section class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <br>
+                <p>Department of Computer <br> Engineering</p>
+                <br>
+                <p>Tel: +966 xx xxx xxxx<br>
+                    Email: email@kfupm.edu.sa</p>
+            </section>
+            <section class="col-sm-12 col-md-3 col-lg-3 col-xl-3 logo2">
+                <br>
+                <img src="img/logo.svg" alt="logo pic">
+            </section>
+        </div>
+        <br>
+        <div class="col-4 m-auto">
+            <p style="text-align: center;">Copyright © 2020 CCSE<br>
+                email@kfupm.edu.sa</p>
+        </div>
+    </div>
+</footer>
+</html>

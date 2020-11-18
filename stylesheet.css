@@ -1,0 +1,168 @@
+/* Reset */
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+/* resize logo */
+.navbar-brand img {
+  width: 300px;
+}
+.logo2 img {
+  width: 300px;
+}
+/* nav link */
+.nav-link {
+  font-weight: bold;
+  color: rgb(236, 236, 236) !important;
+}
+/* hide secondary search */
+.search2 {
+  display: none;
+}
+/* slider image size */
+.carousel-item img{
+   width: 1140px;
+   height: 400px;
+}
+/* slider caption */
+.carousel-caption h1, .carousel-caption h4, .carousel-caption p {
+  text-shadow: 1px 1px 5px black;
+}
+/* style cards */
+.card {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+.card img {
+  position: absolute;
+  transition: 0.5s;
+}
+.card img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.card h3 {
+  position: absolute;
+  color: white;
+  margin: 20px;
+  text-shadow: 1px 1px 5px black;
+  top: 70%;
+}
+/* page styling */
+.bg-style {
+  background-color: rgb(106, 183, 209);
+}
+.h-color {
+  color: rgb(106, 183, 209);
+}
+/* section padding */
+section {
+  padding: 15px;
+}
+/* footer */
+footer {
+  margin-top: 40px;
+}
+/* social media bar */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+.google {
+  background: #dd4b39;
+  color: white;
+}
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+/* people side nav */
+.side-nav {
+  background:rgb(106, 183, 209);
+}
+/* blockquote */
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+/* my image */
+.my-face {
+  max-height: 300px;
+}
+
+/* Responsiveness */
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+  /* slider image size */
+  .carousel-item img{
+    min-width: 0px;
+    width: 100%;
+    height: 400px;
+  }
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+  /* hide primary search */
+  .search1 {
+    display: none;
+  }
+  /* show secondary search */
+  .search2 {
+    display: flex;
+  }
+  /* resize social media bar */
+  .icon-bar a {
+    font-size: 15px;
+  }
+}
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+  /* resize logo */
+  .navbar-brand img {
+    width: 200px;
+  }
+  /* resize social media bar */
+  .icon-bar a {
+    font-size: 10px;
+  }
+}
